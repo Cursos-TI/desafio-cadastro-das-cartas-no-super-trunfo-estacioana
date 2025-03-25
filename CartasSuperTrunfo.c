@@ -1,34 +1,34 @@
 int main() { //estrutura para armazenar os dados de uma carta
-    int populacao1, populacao2;
-    float area1, area2;
-    float pib1, pib2;
-    int pontos_turisticos1, pontos_turisticos2;
-    char estado1[20], estado2[20];
-    char codigo1[10], codigo2[10];
-    char cidade1[40], cidade2[40];
+    int populacao1, populacao2; //VARIAVEIS PARA ARMAZENAR A POPULAÇÃO
+    float area1, area2;// VARIAVEIS PARA ARMAZENAR A AREA
+    float pib1, pib2;//VARIAVEIS PARA ARMAZENAR O PIB DA AREA
+    int pontos_turisticos1, pontos_turisticos2;//VARIAVEIS PARA ARMAZENAR OS PONTOS TURISTICOS
+    char estado1[20], estado2[20];//VARIAVEIS PARA ARMAZENAR O ESTADO
+    char codigo1[10], codigo2[10];//VARIAVEIS PARA ARMAZENAR O CODIGO
+    char cidade1[40], cidade2[40];//VARIAVEIS PARA ARMAZENAR A CIDADE
 
     //perguntado ao usuario os dados da carta1
     printf("Cadastro da Carta 1:\n");
     printf("Digite seu estado\n");
-    scanf("%s", &estado1);
+    scanf("%s", &estado1);//LE O ESTADO DA CARTA
 
     printf("Codigo\n");
-    scanf("%s", &codigo1);
+    scanf("%s", &codigo1);//LE O CODIGO DA CARTA
 
     printf("Nome da cidade:\n");
-    scanf("%s", &cidade1);
+    scanf("%s", &cidade1);//LE A CIDADE DA CARTA
 
     printf("População:\n ");
-    scanf("%d", &populacao1);
+    scanf("%d", &populacao1);//LE A POPULACAO DA CARTA
 
     printf("Área: ");
-    scanf("%f", &area1);
+    scanf("%f", &area1);//LE A AREA DA CARTA
 
     printf("PIB: ");
-    scanf("%f", &pib1);
+    scanf("%f", &pib1);//LE O PIB DA CARTA
 
     printf("Número de pontos turísticos: ");
-    scanf("%d", &pontos_turisticos1);
+    scanf("%d", &pontos_turisticos1);//LE OS PONTOS TURISTICOS DAS PASTAS
 
     //perguntando ao usuario os dados da carta2
     printf("\nCadastro da Carta 2:\n");
